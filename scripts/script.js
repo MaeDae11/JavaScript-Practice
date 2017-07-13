@@ -1,3 +1,10 @@
+
+// if (!serviceLever) {
+//     throw new Error("Value Error: please pass in a string as serviceLevel")
+// }
+
+
+
 // function hello(name) {
 //     console.log(name);
 // }
@@ -35,11 +42,11 @@
 
 // tip calculator 1
 // function tipAmount(bill, service) {
-//     if (service == "poor") {
+//     if (service === "poor") {
 //         tip = (bill * .1); 
-//     } else if (service == "good") {
+//     } else if (service === "good") {
 //         tip = (bill * .15);
-//     } else if (service == "great") {
+//     } else if (service === "great") {
 //         tip = (bill * .2);
 //     } else {
 //         ("what kind of service did you have???");
@@ -56,13 +63,13 @@
 // function totalAmount(bill, service) {
 //     var tipAmount = 0;
 //     var total = 0;
-//     if (service == "poor") {
+//     if (service === "poor") {
 //         tipAmount = (bill * .1);
 //         total = (bill + tipAmount);
-//     } else if (service == "good") {
+//     } else if (service === "good") {
 //         tipAmount = (bill * .15);
 //         total = (bill + tipAmount);
-//     } else if (service == "great") {
+//     } else if (service === "great") {
 //         tipAmount = (bill * .2); 
 //         total = (bill + tipAmount);
 //     } else {
@@ -80,15 +87,15 @@
 //     var tipAmount = 0;
 //     var total = 0;
 //     var amountPerPerson = 0;
-//     if (service == "poor") {
+//     if (service === "poor") {
 //         tipAmount = (bill * .1); 
 //         total = (bill + tipAmount);
 //         amountPerPerson = (total / numberOfPeople);
-//     } else if (service == "good") {
+//     } else if (service === "good") {
 //         tipAmount = (bill * .15);
 //         total = (bill + tipAmount);
 //         amountPerPerson = (total / numberOfPeople);
-//     } else if (service == "great") {
+//     } else if (service === "great") {
 //         tipAmount = (bill * .20);
 //         total = (bill + tipAmount);
 //         amountPerPerson = (total / numberOfPeople);
